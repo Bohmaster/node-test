@@ -1,0 +1,26 @@
+{
+  "name": "passport",
+  "description": "passport",
+  "main": "server/server.js",
+  "authors": [
+    "Bohmaster <voidhmaster@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bohmaster/node-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-cookies": "^1.5.5",
+    "angular-facebook": "^0.2.3",
+    "angular-resource": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
+}
