@@ -1,0 +1,32 @@
+.user {
+  margin-top: 100px;
+}
+
+.circular {
+  width: 100px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+.circular-thumbnail {
+  width: 50px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 25px;
+  font-family: "Droid Sans", sans-serif;
+}
+
+.logout {
+  font-size: 10px;
+}
+

@@ -1,0 +1,16 @@
+<div class="starter-template">
+  <h1>Bootstrap starter template</h1>
+  <p class="lead">Ingresá con facebook y accedé a tu información y actividad!</p>
+
+  <facebook-login ng-show="!currentUser"></facebook-login>
+
+  <div class="user"
+       ng-show="currentUser">
+
+    <img class="circular" src="{{currentUser.avatar}}" alt="">
+    <h3>Hola, {{ currentUser.name }} ! </h3>
+    <h4>Ingresá a tu <a ui-sref="app.profile">perfil</a>  para ver tus datos</h4>
+
+  </div>
+
+</div>

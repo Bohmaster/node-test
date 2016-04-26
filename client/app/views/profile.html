@@ -1,0 +1,33 @@
+<h1>Perfil</h1>
+
+<div class="row">
+  <div class="col-md-6">
+      <h2>Nombre: {{ me.first_name }}</h2>
+  </div>
+  <div class="col-md-6">
+      <h2>Apellido: {{ me.last_name }}</h2>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <h2>Atletas favoritos</h2>
+    <div ng-repeat="athlete in me.favorite_athletes">
+      <h4>{{athlete.name}}</h4>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h2>Influencias</h2>
+    <div ng-repeat="people in me.inspirational_people">
+      <h4>{{ people.name }}</h4>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h2>Equipos favoritos</h2>
+    <div ng-repeat="team in me.favorite_teams">
+      <h4>{{team.name}}</h4>
+    </div>
+  </div>
+
+</div>
